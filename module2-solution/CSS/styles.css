@@ -1,0 +1,80 @@
+/*Sets box sizing to border box for all boxes*/	
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  vertical-align: baseline;
+  background: transparent;
+  box-sizing: border-box;
+}
+/*Heading of the page*/	
+	h1{font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 60px; 
+	text-align: center;
+	}
+	/*aligns all large boxes into a row and content is aligned center so no margin is needed*/
+	#flex{
+		display: flex;
+		position: relative;
+		width: 100%;
+		flex-wrap: wrap;
+		box-flex: 1;
+		box-orient: horizontal;
+		justify-content: center;
+	}
+	/*giving a each box a width, background color, border etc.*/
+	#box{
+		background-color: silver;
+		width: 30%;
+		margin: 15px;
+		border: 1px solid black;
+		padding: 10px;
+		margin: 20px 1.6% 20px 1.6%;
+	}
+	/*changes background of each sub-heading*/
+	.h1{background-color: tomato;}
+	.h2{background-color: teal;color: white;}
+	.h3{background-color: gold;color: green;}
+
+	/****Positioning,border,alignment etc. of sub-heading****/
+	#head{
+		font-size: 25px; 
+		text-align: center;
+		display: block;
+		border: 1px solid black;
+		float: right;
+		padding: 10px 30px;
+		box-sizing: content-box;
+		position: relative;
+		left:11px;
+ 		top:-11px;
+ 	}
+ 	/***styling of paragraphs***/
+	#p1{
+		 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		 font-size: 20px;
+		 text-align: left;
+		 margin-top: 10px;
+
+	}
+
+
+	/********for medium screen sizes or tablets*********/
+	@media(min-width: 768px) and (max-width: 991px)
+	{
+		#box:nth-of-type(1) {width:45%; }
+		#box:nth-of-type(2) {width:35%; }
+		#box:nth-of-type(3) {width:85%; }
+
+
+	}	
+
+
+	/*****For small screen sizes or mobile devices*****/
+	@media(max-width: 767px)
+	{
+		#box:nth-of-type(n) {width: 80%;}
+	}
