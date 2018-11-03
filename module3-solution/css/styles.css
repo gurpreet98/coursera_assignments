@@ -1,0 +1,138 @@
+
+* {
+	box-sizing: border-box;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+#header-nav
+	{
+		background-color: #222;
+		border: 0;
+		border-radius: 0;
+	}
+
+/**Brand Name***/
+.nav-brand {
+  color: tomato;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 2px silver;
+}
+
+/***Title***/
+h1 {
+	
+	color: black;
+}
+
+
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: lightgrey;
+	width: 100%;
+	height: auto;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+/********heading of each section******/
+#chicken {
+	
+	font-weight: bold;
+	font-size: 1.5em;
+	font-family: "Arial Black" ,serif;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	
+}
+
+#beef {
+		
+	font-family: "Arial Black" ,serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	
+}
+
+#sushi {
+	
+	font-family: "Arial Black" ,serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-bottom: 0;
+	margin-top: 0;	
+	padding: 5px;
+}
+
+#chicken-sec {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-sec {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-sec {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #222;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid tomato;
+  background-color: #222;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -10px;
+
+}
+
+.nav-header {
+  background-color: #222;
+}
+
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: tomato;
+  font-size: 1.2em;
+
+}
